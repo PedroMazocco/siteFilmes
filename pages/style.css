@@ -1,0 +1,110 @@
+body{
+    max-height:400px;
+    background-image: url('../imagens/fundo.png');
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(42, 43, 48, 0.8);
+    height: 80%;
+    width: 85%;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    opacity: 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .box img{
+    width: 380px;
+    height: 480px;
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 10px;
+    display:inline; 
+    border-radius: 15px;
+}
+
+.chat{
+    background-color: white;
+    width: 800px;
+    height: 480px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 460px;
+    margin-right: auto;
+    margin-top: -485px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+.box textarea{
+    background-color: rgba(42, 43, 48, 0.8);
+    border-color: transparent;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 630px;
+    height: 50px;
+    text-align: justify;
+    font-size: 16px;
+    color: #ffff;
+    resize: none;
+    display: block;
+    margin-top: 350px;
+}
+
+.chat button{
+    background-color: rgba(42, 43, 48);
+    color: #ffff;
+    border-color: transparent;
+    width: 90px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 355px;
+    margin-left: 15px;
+}
+
+.chat button:hover{
+    background-color: #202022;
+}
+
+.chat h2{
+    color: #ffff;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    max-width: 500px !important;
+    max-height: 300px !important;
+    overflow:auto;
+    text-overflow: clip; 
+    border: #ffff;
+    text-align:justify;
+}
+
+.chat img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -150px;
+    margin-left: -130px;
+}
